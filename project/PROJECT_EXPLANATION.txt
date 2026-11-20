@@ -1,0 +1,71 @@
+PROJECT EXPLANATION – QUICK NOTES
+
+1. Project title
+Online Payment Fraud Detection using Machine Learning.
+
+2. Problem
+Online payments can be misused. Checking every transaction manually is difficult.
+
+3. Objective
+To train a machine learning model that identifies suspicious transactions.
+
+4. Language
+Python.
+
+5. Tools and libraries
+- VS Code: editor to write and run Python.
+- Pandas: handles data in rows and columns.
+- Scikit-learn: machine learning library.
+- RandomForestClassifier: algorithm used for prediction.
+- train_test_split: divides data into training and testing sets.
+- Accuracy, Precision, Recall and F1-score: evaluation measures.
+
+6. Six features
+Amount, time, location change, recent transactions, device change, failed attempts.
+
+7. Algorithm
+Random Forest. It combines predictions from many decision trees and chooses the final class.
+
+8. Workflow
+Create data → Select features → Split data → Train model → Test model → Predict a new transaction.
+
+9. Output
+Genuine (0) or Fraudulent (1), plus fraud probability.
+
+10. Important honest point
+The dataset is synthetic and made for demonstration. The result is not real banking accuracy.
+
+POSSIBLE TEACHER QUESTIONS
+
+Q: What is Machine Learning?
+A: Machine Learning is a part of AI that allows computers to learn patterns from data.
+
+Q: What is fraud detection?
+A: It is the process of identifying suspicious or unauthorized transactions.
+
+Q: Why did you use Random Forest?
+A: It combines multiple decision trees and can learn patterns from different transaction features.
+
+Q: What is Pandas?
+A: Pandas is a Python library used to work with tabular data.
+
+Q: What is Scikit-learn?
+A: It is a Python library used to build and evaluate machine learning models.
+
+Q: What is the target variable?
+A: Fraud. It is the value the model tries to predict.
+
+Q: What are predictor variables?
+A: The six transaction details used to make the prediction.
+
+Q: What is training data?
+A: Data used by the model to learn patterns.
+
+Q: What is testing data?
+A: Separate data used to check the model's performance.
+
+Q: What does 0 and 1 mean?
+A: 0 means genuine and 1 means fraudulent.
+
+Q: Is this a real banking system?
+A: No. It is a classroom prototype using synthetic data.
